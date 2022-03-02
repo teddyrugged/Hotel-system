@@ -1,3 +1,4 @@
+
 from .model import Model
 
 
@@ -14,4 +15,8 @@ class Hotel(Model):
         instance = cls()
 
         # Add your implementation here ...
-        pass
+        instance._id = record['_id']
+        instance.name = record['name']
+        return instance
+
+
