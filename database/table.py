@@ -43,6 +43,7 @@ class Table:
 
 
 
+
 info = Table('name', 'age')
 # print(info.fields)
 info.insert(name='Josiah', age = 20)

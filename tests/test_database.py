@@ -1,7 +1,6 @@
 
 import unittest
-
-import hotel_system
+from database import Database
 
 
 
